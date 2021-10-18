@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outra formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Codígo-python</h2>
+    <pre>
+        <code>
+    from datetime import datetime
+    now = datetime.now()
+    ano_atual = now.year
+    maior_idade = 0
+    menor_idade = 0
+    for c in range(1, 8):
+        ano = float(input('Ano de Nascimento: '))
+        idade = ano_atual - ano
+        if idade >= 21:
+            maior_idade += 1
+        else:
+            menor_idade += 1
+    print('{:.0f} pessoas são Maiores de idade!'.format(maior_idade))
+    print('{:.0f} pessoas são Menores de idade!'.format(menor_idade))
+            </code>
+        </pre>
+
+     <h2>Citações simples:</h2>   
+     <p>Como diria o pai de um amigo:<q>o computador é um burro muito rápido</q></p>
+     <h2>Citações completas:</h2>
+     <p>Segundo Jeff Noble, no seu livro HTML para leigos:</p>
+     <blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&pg=PP3&dq=html+para+iniciantes&hl=en&sa=X&ved=2ahUKEwiX29_ioaruAhX1ILkGHX-BB_YQ6AEwAnoECAQQAg#v=onepage&q=html%20para%20iniciantes&f=false">
+         A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+     </blockquote>
+     <h2>Abreviações</h2>
+     <p>Estou estudando <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou gostando</p>
+     <h2>Texto invertido</h2>
+     <p></p>
+</html>
